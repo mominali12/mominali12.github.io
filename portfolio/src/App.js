@@ -8,10 +8,12 @@ import Header from "./components/header";
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Switch>
-        <Route path="/" component={Header} exact />
-      </Switch>
+      <Wrapper>
+        <Navbar />
+        <Switch>
+          <Route path="/" component={Header} exact />
+        </Switch>
+      </Wrapper>
     </Router>
   );
 }

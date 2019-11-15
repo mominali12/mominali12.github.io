@@ -1,3 +1,3 @@
-import NavbarComponent from "./Navbar";
+import projects from "./projects";
 
-export default NavbarComponent;
+export default projects;

@@ -1,0 +1,10 @@
+/* your css code */
+.WrapperWrapper {
+  ul.ui-widget-content::-webkit-scrollbar {
+    width: 0px;
+  }
+  margin: 40px;
+  @media only screen and (max-width: 450px) {
+    margin: 20px;
+  }
+}

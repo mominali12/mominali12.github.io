@@ -2,14 +2,15 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 //Components
-import navbar from "./navbar";
-import header from "./header";
+import Navbar from "./components/navbar";
+import Header from "./components/header";
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Switch>
-        <Route path="/" component={navbar} exact />
+        <Route path="/" component={Header} exact />
       </Switch>
     </Router>
   );
